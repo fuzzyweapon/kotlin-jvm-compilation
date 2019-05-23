@@ -166,4 +166,7 @@ Temporary Items
 
 .idea/artifacts/
 .idea/kotlinScripting.xml
-/.idea/kotlinScripting.xml
+!/gradle/wrapper/gradle-wrapper.jar
+
+# Causing troubles because developer-specific plugins are storing configuration in these files
+.idea/vcs.xml

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="com.example.kotlin-mp-lib-core.jvmMain" target="1.8" />
+      <module name="com.example.kotlin-mp-lib-core.jvmTest" target="1.8" />
+      <module name="com.example.kotlin-mp-lib-utils.jvmMain" target="1.8" />
+      <module name="com.example.kotlin-mp-lib-utils.jvmTest" target="1.8" />
       <module name="com.example.consumer.jvmMain" target="1.8" />
       <module name="com.example.consumer.jvmTest" target="1.8" />
     </bytecodeTargetLevel>

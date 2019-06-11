@@ -44,7 +44,7 @@ kotlin {
         commonMain {
             dependencies {
                 implementation kotlin('stdlib-common')
-                implementation "com.example:kotlin-mp-lib-metadata:$samples_version"
+                implementation "com.example:kotlin-mp-lib-core-metadata:$samples_version"
             }
         }
         commonTest {
@@ -59,7 +59,7 @@ kotlin {
                 implementation "io.ktor:ktor-server-netty:$ktor_version"
                 implementation "io.ktor:ktor-html-builder:$ktor_version"
                 implementation "ch.qos.logback:logback-classic:$logback_version"
-                implementation "com.example:kotlin-mp-lib-jvm:$samples_version"
+                implementation "com.example:kotlin-mp-lib-core-jvm:$samples_version"
             }
         }
         jvmTest {
@@ -71,7 +71,7 @@ kotlin {
         jsMain {
             dependencies {
                 implementation kotlin('stdlib-js')
-                implementation "com.example:kotlin-mp-lib-js:$samples_version"
+                implementation "com.example:kotlin-mp-lib-core-js:$samples_version"
             }
         }
         jsTest {

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="com.example.consumer.jvmMain" target="1.6" />
-      <module name="com.example.consumer.jvmTest" target="1.6" />
+      <module name="com.example.consumer.jvmMain" target="1.8" />
+      <module name="com.example.consumer.jvmTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

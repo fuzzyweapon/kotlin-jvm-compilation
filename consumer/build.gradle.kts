@@ -14,7 +14,14 @@ val logback_version = "1.2.3"
 val samples_version = "0.0.1"
 
 kotlin {
-	jvm()
+	// For parity, but not confirmed this is a part of the issue yet.
+	jvm {
+		compilations.all {
+			kotlinOptions {
+				jvmTarget = "1.8"
+			}
+		}
+	}
 	js {
 		compilations.all {
 			kotlinOptions {
